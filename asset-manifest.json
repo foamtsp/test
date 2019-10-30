@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.b100e6da.chunk.css",
-    "main.js": "/test/static/js/main.1c05cc9a.chunk.js",
-    "main.js.map": "/test/static/js/main.1c05cc9a.chunk.js.map",
+    "main.css": "/test/static/css/main.41d6555a.chunk.css",
+    "main.js": "/test/static/js/main.ce53be06.chunk.js",
+    "main.js.map": "/test/static/js/main.ce53be06.chunk.js.map",
     "runtime-main.js": "/test/static/js/runtime-main.04f6b747.js",
     "runtime-main.js.map": "/test/static/js/runtime-main.04f6b747.js.map",
-    "static/js/2.017bb613.chunk.js": "/test/static/js/2.017bb613.chunk.js",
-    "static/js/2.017bb613.chunk.js.map": "/test/static/js/2.017bb613.chunk.js.map",
+    "static/js/2.169ba9ce.chunk.js": "/test/static/js/2.169ba9ce.chunk.js",
+    "static/js/2.169ba9ce.chunk.js.map": "/test/static/js/2.169ba9ce.chunk.js.map",
     "index.html": "/test/index.html",
-    "precache-manifest.9d818db893e38a021811575361543b81.js": "/test/precache-manifest.9d818db893e38a021811575361543b81.js",
+    "precache-manifest.cc551ac316277c2a8df81432c161485b.js": "/test/precache-manifest.cc551ac316277c2a8df81432c161485b.js",
     "service-worker.js": "/test/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/test/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/test/static/media/logo.25bf045c.svg"
+    "static/css/main.41d6555a.chunk.css.map": "/test/static/css/main.41d6555a.chunk.css.map",
+    "static/media/Banner_CGD_Sq.png": "/test/static/media/Banner_CGD_Sq.6c42699d.png",
+    "static/media/Banner_KTB_SQ.png": "/test/static/media/Banner_KTB_SQ.ed683f12.png",
+    "static/media/Banner_TAT_Hotline_Sq.png": "/test/static/media/Banner_TAT_Hotline_Sq.1b47ec36.png",
+    "static/media/CGD.png": "/test/static/media/CGD.093f4f57.png",
+    "static/media/main.css": "/test/static/media/TATSanaSuksa-Regular.f51f1b81.woff2",
+    "static/media/FPO.png": "/test/static/media/FPO.34f69a5b.png",
+    "static/media/Krungthai.png": "/test/static/media/Krungthai.8b71f26b.png",
+    "static/media/MOF.png": "/test/static/media/MOF.398d843b.png",
+    "static/media/MOTS.png": "/test/static/media/MOTS.09477969.png",
+    "static/media/TAT.png": "/test/static/media/TAT.2529bd05.png",
+    "static/media/page-home.css": "/test/static/media/banner-right.b28170f0.png",
+    "static/media/banner.png": "/test/static/media/banner.0b9c7c9c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.04f6b747.js",
-    "static/js/2.017bb613.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.1c05cc9a.chunk.js"
+    "static/js/2.169ba9ce.chunk.js",
+    "static/css/main.41d6555a.chunk.css",
+    "static/js/main.ce53be06.chunk.js"
   ]
 }
