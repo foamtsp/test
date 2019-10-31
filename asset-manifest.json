@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/test/static/css/main.41d6555a.chunk.css",
-    "main.js": "/test/static/js/main.ce53be06.chunk.js",
-    "main.js.map": "/test/static/js/main.ce53be06.chunk.js.map",
+    "main.js": "/test/static/js/main.42a71036.chunk.js",
+    "main.js.map": "/test/static/js/main.42a71036.chunk.js.map",
     "runtime-main.js": "/test/static/js/runtime-main.04f6b747.js",
     "runtime-main.js.map": "/test/static/js/runtime-main.04f6b747.js.map",
     "static/js/2.169ba9ce.chunk.js": "/test/static/js/2.169ba9ce.chunk.js",
     "static/js/2.169ba9ce.chunk.js.map": "/test/static/js/2.169ba9ce.chunk.js.map",
     "index.html": "/test/index.html",
-    "precache-manifest.b8a9d8a0c1399d36a60018988450c296.js": "/test/precache-manifest.b8a9d8a0c1399d36a60018988450c296.js",
+    "precache-manifest.19eab57c08491c8114082241deb64c2d.js": "/test/precache-manifest.19eab57c08491c8114082241deb64c2d.js",
     "service-worker.js": "/test/service-worker.js",
     "static/css/main.41d6555a.chunk.css.map": "/test/static/css/main.41d6555a.chunk.css.map",
     "static/media/Banner_CGD_Sq.png": "/test/static/media/Banner_CGD_Sq.6c42699d.png",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.04f6b747.js",
     "static/js/2.169ba9ce.chunk.js",
     "static/css/main.41d6555a.chunk.css",
-    "static/js/main.ce53be06.chunk.js"
+    "static/js/main.42a71036.chunk.js"
   ]
 }
