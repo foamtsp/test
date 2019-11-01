@@ -1,0 +1,23 @@
+.page-header {
+  color: red;
+}
+@font-face {
+  font-family: 'Chonburi';
+  src: url('../fonts/Chonburi/Chonburi-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TATSanaChon";
+  src: url('../fonts/TAT/TATSanaChon-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "TATSanaSuksa";
+  src: url('../fonts/TAT/TATSanaSuksa-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: "TATSanaSuksaBold";
+  src: url('../fonts/TAT/TATSanaChon-Bold.woff2') format('woff2');
+}
