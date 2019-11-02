@@ -9,9 +9,7 @@ export default class timeBanner extends Component{
   }
 
   componentDidMount() {
-    fetch('https://panjs.com/ywc.json')
-      .then(response => response.json())
-      .then(data => this.setState({ data: data.duration }));
+   this.setState({ data: this.props.duration });
   }
 
     render(){

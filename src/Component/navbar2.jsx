@@ -12,9 +12,7 @@ export default class navbar2 extends Component{
   }
 
   componentDidMount() {
-    fetch('https://panjs.com/ywc.json')
-      .then(response => response.json())
-      .then(data => this.setState({ data: data.navbarItems }));
+    this.setState({ data: this.props.navBarItems });
   }
 
   handleClick(){

@@ -11,19 +11,37 @@ import './CSS/page-home.css';
 
 class App extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      navBarItems: [],
+      duration: "",
+      detail:"",
+      condition:""
+    };
+  }
+
+  componentDidMount() {
+    fetch('https://panjs.com/ywc.json')
+      .then(response => response.json())
+      .then(data => this.setState({ navBarItems: data.navbarItems,
+                                    duration: data.duration,
+                                    detail: data.detail,
+                                    condition: data.condition }
+                                    ));
+  }
+
   
   render(){
-
-
     return (
       <body>
-        <Navbar/>
+        {this.state.navBarItems.length > 0 && <Navbar navBarItems = {this.state.navBarItems}/>}
         <Banner/>
-        <Since/>
-        <Desc/>
+        {this.state.duration.length > 0 && <Since duration = {this.state.duration}/>}
+        {this.state.detail.length > 0 && this.state.condition.length > 0 && <Desc detail = {this.state.detail} condition = {this.state.condition}/>}
         <HeroBanner/>
         <Contact/>
-        <Footer/>
+        {this.state.navBarItems.length > 0 && <Footer navBarItems = {this.state.navBarItems}/>}
      </body>
   )
 }

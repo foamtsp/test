@@ -1,19 +1,18 @@
 import React, { Component } from 'react'
+import { thisExpression } from '@babel/types';
 export default class Description extends Component{
 
   constructor(props) {
     super(props);
     this.state = {
-      detail: [],
-      condition: []
+      detail: "",
+      condition: ""
     };
   }
 
   componentDidMount() {
-    fetch('https://panjs.com/ywc.json')
-      .then(response => response.json())
-      .then(data => this.setState({ detail: data.detail,
-                                    condition: data.condition }));
+    this.setState({ detail: this.props.detail,
+                    condition: this.props.condition });
   }
     render(){
       
